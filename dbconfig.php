@@ -21,12 +21,12 @@ if ($conn->query($sql) === TRUE) {
   echo "<div style='font-size:large;color:darkblue'>Hurray! You comment is published.</div>";
   echo "<br>";
   echo "<br>";
-  echo "<a href='blogpage.html' class='socbuttons'>Click here to continue back to our blog</a>";
+  echo "<a href='https://ananditaa.github.io/MyFirstWebsite/blogpage.html' class='socbuttons'>Click here to continue back to our blog</a>";
   echo "<br>";
   echo "<br>";
   echo "Wanna see all the comments?";
   echo "<br>";
-  echo "<a href='comments_display.php' class='socbuttons'>Click here to read all the comments.</a>";
+  echo "<a href='https://ananditaa.github.io/MyFirstWebsite/comments_display.php' class='socbuttons'>Click here to read all the comments.</a>";
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
 }
