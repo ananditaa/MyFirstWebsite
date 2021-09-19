@@ -22,7 +22,7 @@ if ($conn->query($sql) === TRUE) {
   echo "<div style='font-size:large;color:darkblue'>Hurray! You will now get all the latest updates about our blog</div>";
   echo "<br>";
   echo "<br>";
-  echo "<a href='blogpage.html' class='socbuttons'>Click here to continue back to our blog</a>";
+  echo "<a href='https://ananditaa.github.io/MyFirstWebsite/blogpage.html' class='socbuttons'>Click here to continue back to our blog</a>";
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
 }
